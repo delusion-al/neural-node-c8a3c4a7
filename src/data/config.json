@@ -1,0 +1,115 @@
+{
+  "brand": {
+    "font": "Inter",
+    "colors": {
+      "accent": "#F39C12",
+      "primary": "#1A2B3C"
+    },
+    "logo_text": "Grazie Mille",
+    "ui_ux_logic": {
+      "contrast_ratio": "WCAG 2.1 AA Compliant (4.5:1)",
+      "visual_hierarchy": "High-contrast primary green used exclusively for conversion-driving CTAs",
+      "state_transitions": "Linear 0.3s ease-in-out shift from #2D5A27 to #3E7D36 on hover"
+    },
+    "visual_hierarchy": {
+      "cta_visibility": "High",
+      "emotional_alignment": "Trust and Innovation"
+    }
+  },
+  "seo": {
+    "title": "High-Conversion Website Optimization | Professional UX & SEO",
+    "alt_text": "Audit logic: Detect missing alt attributes and replace non-descriptive filenames.",
+    "headings": {
+      "h1": "Sustainable Home Goods for a Greener Planet",
+      "h2": [
+        "Eco-Friendly Kitchenware Essentials",
+        "Our Commitment to Sustainability",
+        "Customer Favorites for a Zero-Waste Home"
+      ]
+    },
+    "meta_tags": {
+      "og_title": "EcoStore | Sustainable Living Made Simple",
+      "canonical": "https://example-eco-store.com/",
+      "og_description": "Join the movement toward a zero-waste lifestyle with our premium sustainable home goods."
+    },
+    "description": "Enhance your digital presence with data-driven SEO strategies and high-accessibility UI design to increase organic traffic and conversion rates.",
+    "header_hierarchy": "Audit logic: Verify unique <h1>, sequential <h2>-<h6> nesting, and no skipped levels.",
+    "semantic_mapping": "Audit logic: Ensure tags are descriptive and converted from generic to specific keywords.",
+    "keyword_alignment": {
+      "status": "Optimized",
+      "density": "1.5%",
+      "target_keyword": "Cloud Consulting"
+    }
+  },
+  "pages": [
+    {
+      "id": "home",
+      "hero": {
+        "title": "Grazie Mille",
+        "subtitle": "Tu experto local en restaurant en Madrid",
+        "button_text": "Reservar Cita"
+      },
+      "layout": "glassmorphism",
+      "contact": {
+        "email": "info@grazie-mille.aifactory.dev",
+        "phone": "Pendiente de activar",
+        "address": "Madrid"
+      },
+      "pricing": [
+        {
+          "name": "Básico",
+          "price": "Económico",
+          "features": [
+            "Servicio estándar",
+            "Garantía 30 días"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "Recomendado",
+          "features": [
+            "Prioridad máxima",
+            "Atención 24/7",
+            "Garantía extendida"
+          ]
+        }
+      ],
+      "features": [
+        {
+          "desc": "Priorizamos tu tiempo en Madrid.",
+          "icon": "Zap",
+          "title": "Atención Express"
+        },
+        {
+          "desc": "Seguridad y precisión en cada servicio de restaurant.",
+          "icon": "Shield",
+          "title": "Garantía Neural"
+        },
+        {
+          "desc": "Acabados y atención al detalle de alto nivel.",
+          "icon": "Star",
+          "title": "Calidad Premium"
+        }
+      ]
+    }
+  ],
+  "navbar": [
+    {
+      "href": "#inicio",
+      "label": "Inicio"
+    },
+    {
+      "href": "#servicios",
+      "label": "Servicios"
+    },
+    {
+      "href": "#pricing",
+      "label": "Tarifas"
+    },
+    {
+      "href": "#contacto",
+      "label": "Contacto"
+    }
+  ],
+  "updated_at": "2026-04-03T19:34:43.819Z"
+}
