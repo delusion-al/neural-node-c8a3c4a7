@@ -2,8 +2,10 @@
   "brand": {
     "font": "Inter",
     "colors": {
-      "accent": "#F39C12",
-      "primary": "#1A2B3C"
+      "primary": "hsl(220, 35%, 8%)",
+      "accent": "hsl(42, 50%, 65%)",
+      "surface": "hsl(0, 0%, 100%, 0.05)",
+      "text": "hsl(40, 20%, 95%)"
     },
     "logo_text": "Grazie Mille",
     "ui_ux_logic": {
@@ -17,7 +19,7 @@
     }
   },
   "seo": {
-    "title": "High-Conversion Website Optimization | Professional UX & SEO",
+    "title": "Grazie Mille | Ultra-Luxury Bespoke Concierge & Gifting",
     "alt_text": "Audit logic: Detect missing alt attributes and replace non-descriptive filenames.",
     "headings": {
       "h1": "Sustainable Home Goods for a Greener Planet",
@@ -32,7 +34,7 @@
       "canonical": "https://example-eco-store.com/",
       "og_description": "Join the movement toward a zero-waste lifestyle with our premium sustainable home goods."
     },
-    "description": "Enhance your digital presence with data-driven SEO strategies and high-accessibility UI design to increase organic traffic and conversion rates.",
+    "description": "The pinnacle of digital couture for high-net-worth individuals. Bespoke hospitality, curated gifting, and elite concierge management.",
     "header_hierarchy": "Audit logic: Verify unique <h1>, sequential <h2>-<h6> nesting, and no skipped levels.",
     "semantic_mapping": "Audit logic: Ensure tags are descriptive and converted from generic to specific keywords.",
     "keyword_alignment": {
@@ -44,52 +46,11 @@
   "pages": [
     {
       "id": "home",
-      "hero": {
-        "title": "Grazie Mille",
-        "subtitle": "Tu experto local en restaurant en Madrid",
-        "button_text": "Reservar Cita"
-      },
-      "layout": "glassmorphism",
-      "contact": {
-        "email": "info@grazie-mille.aifactory.dev",
-        "phone": "Pendiente de activar",
-        "address": "Madrid"
-      },
-      "pricing": [
-        {
-          "name": "Básico",
-          "price": "Económico",
-          "features": [
-            "Servicio estándar",
-            "Garantía 30 días"
-          ]
-        },
-        {
-          "name": "Premium",
-          "price": "Recomendado",
-          "features": [
-            "Prioridad máxima",
-            "Atención 24/7",
-            "Garantía extendida"
-          ]
-        }
-      ],
-      "features": [
-        {
-          "desc": "Priorizamos tu tiempo en Madrid.",
-          "icon": "Zap",
-          "title": "Atención Express"
-        },
-        {
-          "desc": "Seguridad y precisión en cada servicio de restaurant.",
-          "icon": "Shield",
-          "title": "Garantía Neural"
-        },
-        {
-          "desc": "Acabados y atención al detalle de alto nivel.",
-          "icon": "Star",
-          "title": "Calidad Premium"
-        }
+      "blocks": [
+        "HeroSection",
+        "BentoFeatureGrid",
+        "VIPAccessCallToAction",
+        "Footer"
       ]
     }
   ],
@@ -111,5 +72,5 @@
       "label": "Contacto"
     }
   ],
-  "updated_at": "2026-04-03T19:34:43.819Z"
+  "updated_at": "2026-04-03T22:50:07.315Z"
 }
