@@ -2,10 +2,10 @@
   "brand": {
     "font": "Inter",
     "colors": {
-      "primary": "hsl(220, 35%, 8%)",
+      "text": "hsl(40, 20%, 95%)",
       "accent": "hsl(42, 50%, 65%)",
-      "surface": "hsl(0, 0%, 100%, 0.05)",
-      "text": "hsl(40, 20%, 95%)"
+      "primary": "hsl(220, 35%, 8%)",
+      "surface": "hsl(0, 0%, 100%, 0.05)"
     },
     "logo_text": "Grazie Mille",
     "ui_ux_logic": {
@@ -72,5 +72,5 @@
       "label": "Contacto"
     }
   ],
-  "updated_at": "2026-04-03T22:50:07.315Z"
+  "updated_at": "2026-04-04T00:49:35.687Z"
 }
